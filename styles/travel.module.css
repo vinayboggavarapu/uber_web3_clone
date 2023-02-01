@@ -1,0 +1,118 @@
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 21%;
+    height: 80%;
+    border-radius: 4px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    z-index: 1;
+    display: flex;
+    bottom: 0rem;
+    margin: 1rem 2rem;
+    box-sizing: border-box;
+    padding: 1.5rem;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    width: 100%;
+    border: none;
+    height: 2rem;
+    margin-top:0.7rem ;
+    border-radius: 3px;
+}
+.hidebtn{
+    opacity: 0;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+.location{
+    height: fit-content;
+}
+
+.point{
+    color: black;
+    height: 2rem;
+    font-size: 1.3rem;
+    padding-left: 1rem;
+}
+
+.travel input{
+    width: 90%;
+    height: 2rem;
+    color: black;
+    font-size: 1.2rem;
+    padding-left: 2.5rem;
+    background-color: rgba(228, 230, 234, 0.895);
+    border: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    border-radius: 3px;
+}
+
+.travel input::-webkit-input-placeholder{
+    font-size: 1rem;
+    padding-left: 0rem;
+    
+}
+
+.symbols{
+    position: absolute;
+    width: 4rem;
+    height: 3.5rem;
+    top: 5.7rem;
+    left: 2rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.line{
+    color: black;
+    position: absolute;
+    top: 40%;
+    height: 1.5rem;
+    
+}
+
+.square{
+    color: black;
+    font-size: 1.7rem;
+}
+
+.circle{
+    color: black;
+    font-size: 2rem;
+}
+
+.connect{
+    position: absolute;
+    box-sizing: border-box;
+    padding: 1rem;
+    left: 2rem;
+    background-color: rgb(238, 241, 241);
+    bottom: 1rem;
+    border-radius: 3px;
+    color: black;
+    font-size: 1rem;
+    animation: view 5s infinite ease-in-out ;
+}
+@keyframes view {
+    0%{
+        color: rgb(2, 120, 255);
+    }
+    100%{
+        color: black;
+    }
+    
+}
