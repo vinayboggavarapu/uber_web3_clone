@@ -1,8 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
+Make sure to have Mapbox Api Key , Alchemy Api keys before trying out this application
 
 ```bash
 npm run dev
